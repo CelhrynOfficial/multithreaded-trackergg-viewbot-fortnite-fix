@@ -34,6 +34,7 @@ class ViewBot():
                 os.system(f"title Tracker.gg View Bot • Views sent: {self.views_sent} • Views failed: {self.views_failed} • Views rate limited: {self.views_ratelimited}• Profile: {self.config.link_to_boost}")
 
             headers = {
+                'TRN-Api-Key': '3923f984-b791-4c57-bd3a-98fcb6593085',
                 'Accept': 'application/json,text/plain, */*',
                 'Accept-Encoding': 'gzip, deflate',
                 'Accept-Language': 'en-US,en;q=0.6',

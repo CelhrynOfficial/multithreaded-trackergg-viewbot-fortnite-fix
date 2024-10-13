@@ -10,6 +10,6 @@ class Config():
             # Set the Build version & icon
             self.build_version = "2.0"
 
-            self.link_to_boost = self.config["link_to_boost"]
+            self.link_to_boost = self.config["link_to_boost"]+"/"+input("Enter platform (psn, xbl, or steam) : ")+"/"+input("Enter SteamID64, Xbox Gamertag, or PSN Id :")
             self.proxies_file = self.config["proxies_file"]
             self.threads = self.config["threads"]
